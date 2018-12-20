@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844CBFCB215A6B370048E083 /* DirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844CBFCA215A6B370048E083 /* DirectoryViewController.swift */; };
+		844CBFCD215A6BEF0048E083 /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844CBFCC215A6BEF0048E083 /* Directory.swift */; };
+		844CBFCF215A73190048E083 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844CBFCE215A73190048E083 /* ProfileViewController.swift */; };
+		8470E14E2166EC6600017481 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470E14D2166EC6600017481 /* EditViewController.swift */; };
 		848136E62155512A00AD8B2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848136E52155512A00AD8B2C /* AppDelegate.swift */; };
-		848136E82155512A00AD8B2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848136E72155512A00AD8B2C /* ViewController.swift */; };
 		848136EB2155512A00AD8B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848136E92155512A00AD8B2C /* Main.storyboard */; };
 		848136ED2155512D00AD8B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848136EC2155512D00AD8B2C /* Assets.xcassets */; };
 		848136F02155512D00AD8B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848136EE2155512D00AD8B2C /* LaunchScreen.storyboard */; };
+		848136FD2155529F00AD8B2C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848136FC2155529F00AD8B2C /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		844CBFCA215A6B370048E083 /* DirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryViewController.swift; sourceTree = "<group>"; };
+		844CBFCC215A6BEF0048E083 /* Directory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
+		844CBFCE215A73190048E083 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8470E14D2166EC6600017481 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		848136E22155512A00AD8B2C /* Project 1 Clark Branden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 1 Clark Branden.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		848136E52155512A00AD8B2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		848136E72155512A00AD8B2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		848136EA2155512A00AD8B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		848136EC2155512D00AD8B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848136EF2155512D00AD8B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848136F12155512D00AD8B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848136FC2155529F00AD8B2C /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,50 @@
 		848136E42155512A00AD8B2C /* Project 1 Clark Branden */ = {
 			isa = PBXGroup;
 			children = (
-				848136E52155512A00AD8B2C /* AppDelegate.swift */,
-				848136E72155512A00AD8B2C /* ViewController.swift */,
+				848136F92155516100AD8B2C /* Model */,
+				848136F82155515500AD8B2C /* View */,
+				848136FA2155516900AD8B2C /* Controller */,
+				848136FB2155518300AD8B2C /* Supporting Files */,
+			);
+			path = "Project 1 Clark Branden";
+			sourceTree = "<group>";
+		};
+		848136F82155515500AD8B2C /* View */ = {
+			isa = PBXGroup;
+			children = (
 				848136E92155512A00AD8B2C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		848136F92155516100AD8B2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				848136FC2155529F00AD8B2C /* Contact.swift */,
+				844CBFCC215A6BEF0048E083 /* Directory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		848136FA2155516900AD8B2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				844CBFCA215A6B370048E083 /* DirectoryViewController.swift */,
+				844CBFCE215A73190048E083 /* ProfileViewController.swift */,
+				8470E14D2166EC6600017481 /* EditViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		848136FB2155518300AD8B2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				848136EC2155512D00AD8B2C /* Assets.xcassets */,
+				848136E52155512A00AD8B2C /* AppDelegate.swift */,
 				848136EE2155512D00AD8B2C /* LaunchScreen.storyboard */,
 				848136F12155512D00AD8B2C /* Info.plist */,
 			);
-			path = "Project 1 Clark Branden";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848136E82155512A00AD8B2C /* ViewController.swift in Sources */,
+				844CBFCF215A73190048E083 /* ProfileViewController.swift in Sources */,
+				844CBFCB215A6B370048E083 /* DirectoryViewController.swift in Sources */,
+				8470E14E2166EC6600017481 /* EditViewController.swift in Sources */,
+				848136FD2155529F00AD8B2C /* Contact.swift in Sources */,
 				848136E62155512A00AD8B2C /* AppDelegate.swift in Sources */,
+				844CBFCD215A6BEF0048E083 /* Directory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
